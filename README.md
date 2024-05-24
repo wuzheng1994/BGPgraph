@@ -11,4 +11,8 @@
 ``Mydataset.py`` 加载所用GCN数据，包括节点属性、边属性和邻接矩阵
 ``test_autoencoder.py`` 测试auto-encoder模型使用  
 ``test_GCN.py`` 测试GCN模型使用  
-./topo_construction
+
+./Topo_construction  
+``Data_generator.py`` 数据生成器，按照固定窗口生成Updates消息  
+``Routes.py`` 增量更新topo所用信息  
+``Pyg_data_mul.py`` 增量更新拓扑并提取相关特征
