@@ -6,7 +6,7 @@
 <img src="fig2.png" alt="本地图片"， width=300>
 </div>  
 
-./Topo_construction    
+(1) ./Topo_construction    
 ``Data_generator.py`` 数据生成器，按照固定窗口生成Updates消息  
 ``Routes.py`` 增量更新topo所用信息  
 ``Pyg_data_mul.py`` 增量更新拓扑并提取相关特征
@@ -15,7 +15,7 @@
 <img src="fig1.png" alt="本地图片">
 </div>
 
-./GCN_model  
+(2) ./GCN_model  
 ``pyg_test_418.py`` 训练GCN模型  
 ``python3 pyg_tesy_418.py ``  
 ``autoencoder.py`` 加载GCN的预训练模型，并且训练auto-encoder模型
