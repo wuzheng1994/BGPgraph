@@ -1,5 +1,5 @@
 # BGPgraph
-<div style="text-align: center;">
+<div style="text-align: center;",align="center">
 <img src="fig5.png" alt="本地图片" width="500" height="200">
 <br>
     <div style="text-align: center;">
