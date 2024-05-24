@@ -2,8 +2,8 @@
 
 
 ### Organization of code
-<div style="text-align: center;",align="center">
-<img src="figure 1.png" alt="本地图片"， width=300>
+<div style="text-align: center;">
+<img src="figure 1.png" alt="本地图片"， width=400>
 </div>  
 
 (1) ./Topo_construction    
