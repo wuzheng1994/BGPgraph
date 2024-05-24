@@ -3,7 +3,7 @@
 
 ### Organization of code
 <div style="text-align: center;",align="center">
-<img src="fig2.png" alt="本地图片"， width=300>
+<img src="figure 1.png" alt="本地图片"， width=300>
 </div>  
 
 (1) ./Topo_construction    
@@ -12,7 +12,7 @@
 ``Pyg_data_mul.py`` 增量更新拓扑并提取相关特征
 
 <div style="text-align: center;",align="center">
-<img src="fig1.png" alt="本地图片">
+<img src="figure 2.png" alt="本地图片">
 </div>
 
 (2) ./GCN_model  
