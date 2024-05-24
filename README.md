@@ -1,4 +1,16 @@
 # BGPgraph
+
+
+### Organization of code
+<div style="text-align: center;",align="center">
+<img src="fig2.png" alt="本地图片"， width=300>
+</div>  
+
+./Topo_construction    
+``Data_generator.py`` 数据生成器，按照固定窗口生成Updates消息  
+``Routes.py`` 增量更新topo所用信息  
+``Pyg_data_mul.py`` 增量更新拓扑并提取相关特征
+
 <div style="text-align: center;",align="center">
 <img src="fig1.png" alt="本地图片">
 </div>
@@ -12,7 +24,9 @@
 ``test_autoencoder.py`` 测试auto-encoder模型使用  
 ``test_GCN.py`` 测试GCN模型使用  
 
-./Topo_construction  
-``Data_generator.py`` 数据生成器，按照固定窗口生成Updates消息  
-``Routes.py`` 增量更新topo所用信息  
-``Pyg_data_mul.py`` 增量更新拓扑并提取相关特征
+### Several toolkits may be needed to run the code
+networkx --2.8.8  
+torch -- 1.13.1  
+torch_geometric -- 2.4.0  
+torch-scatter -- 2.1.2
+pytorch_lightning -- 2.1.3
