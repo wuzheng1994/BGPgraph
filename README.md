@@ -16,7 +16,7 @@ In this paper, the framework of BGPGraph includes data collection, method design
 ``Routes.py`` 增量更新topo所用信息  
 ``Pyg_data_mul.py`` 增量更新拓扑并提取相关特征
 
-<div style="text-align: center;",align="center">
+<div align="center">
 <img src="figure 2.png" alt="本地图片">
 </div>
 
