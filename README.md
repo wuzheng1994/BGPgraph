@@ -16,12 +16,14 @@ In this paper, the framework of BGPGraph includes data collection, method design
 ``Routes.py`` 增量更新topo所用信息  
 ``Pyg_data_mul.py`` 增量更新拓扑并提取相关特征
 
-<div align="center">
-<img src="figure 2.png" alt="本地图片">
-</div>
+
 
 ### 2. GCN_model & Autoencoder   
----   
+---
+<div align="center">
+<img src="figure 2.png" alt="本地图片" width=300>
+</div>
+
 ``python3 pyg_tesy_418.py `` 训练GCN模型   
  
 ``python3 autoencoder.py `` 加载GCN的预训练模型，并且训练auto-encoder模型       
