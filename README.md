@@ -21,7 +21,7 @@ In this paper, the framework of BGPGraph includes data collection, method design
 ### 2. GCN_model & Autoencoder   
 ---
 <div align="center">
-<img src="figure 2.png" alt="本地图片" width=300>
+<img src="figure 2.png" alt="本地图片" width=400>
 </div>
 
 ``python3 pyg_tesy_418.py `` 训练GCN模型   
